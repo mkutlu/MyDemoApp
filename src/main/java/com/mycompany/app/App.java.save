@@ -1,0 +1,21 @@
+package com.mycompany.app;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+      public static int limit = Math.min(a, b);
+    limit = Math.min(limit, c);
+    for(int n = limit; n >= 2; n--)
+    {
+        if ( (a % n == 0) && (b % n == 0) && (c % n == 0) ) {
+            return n;
+        }
+    }
+
+    return 1; search(ArrayList<Integer> array, int e) {
+        
+      }
+}
