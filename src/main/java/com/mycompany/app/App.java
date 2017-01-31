@@ -11,7 +11,7 @@ public class App
 {
     public static void main(String[] args) {
         port(getHerokuAssignedPort());
-
+	System.out.println("hello");
         get("/", (req, res) -> "Hello, World");
 
         post("/compute", (req, res) -> {
@@ -44,6 +44,7 @@ public class App
               return new ModelAndView(map, "compute.mustache");
             },
             new MustacheTemplateEngine());
+	System.out.println("herro");
     }
 
     static int getHerokuAssignedPort() {
